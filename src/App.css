@@ -9,6 +9,15 @@
     .App-logo {
       animation: App-logo-spin infinite 20s linear;
     }
+    
+    body {
+      text-align: center;
+      background-image: url("https://image.freepik.com/free-vector/woman-addicted-social-media_23-2148393337.jpg");
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      background-attachment: fixed;
+     
+    }
   }
   .App-header {
     background-color: #282c34;
@@ -18,7 +27,8 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: white(139, 7, 7);
+    
   }
   .App-link {
     color: #61dafb;
@@ -31,13 +41,12 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 1em;
     user-select: none;
+    background-color: antiquewhite
    }
    .activeCard {
-    color: red;
-    background: pink;
-   }
-
-   
+    color: yellow;
+    background: palegreen;
+   }   
   @keyframes App-logo-spin {
     from {
       transform: rotate(0deg);
